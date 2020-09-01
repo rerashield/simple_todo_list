@@ -15,7 +15,7 @@ class MainBoard extends React.Component {
     renderSquare() {
         return <Square />;
     }
-    renderLineBreak(){
+    renderLineBreak() {
         return <br />
     }
     render() {
@@ -27,9 +27,13 @@ class MainBoard extends React.Component {
             }
         }
         return (
-            <div>
-                {renderString}
-            </div >
+            <h1 className="text-primary">Hello React</h1>
+            // <div>
+            //     <h1 className="text-primary">Ok</h1>
+            //     <div>
+            //         {renderString}
+            //     </div >
+            // </div>
         );
     }
 }
@@ -38,3 +42,10 @@ ReactDOM.render(
     <MainBoard />,
     document.getElementById('main')
 );
+
+// ReactDOM.render(
+//     <React.StrictMode>
+//       <App />
+//     </React.StrictMode>,
+//     document.getElementById('root')
+//   );
