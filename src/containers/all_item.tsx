@@ -8,8 +8,6 @@ import * as todoList from '../components/todolist'
 class AllItem extends React.Component {
     alpha: TodoItem = new TodoItem('A', 'B', new Date());
 
-
-
     render() {
         return (
             <div>

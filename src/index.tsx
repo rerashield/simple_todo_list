@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { App } from './containers/app';
+import App from './containers/app';
+import ShowTheLocation from './components/showTheLocation';
 import { BrowserRouter, Switch } from 'react-router-dom';
 import { Second } from './containers/second';
 
@@ -51,6 +52,7 @@ ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <App />
+            {/* <ShowTheLocation /> */}
         </Switch>
     </BrowserRouter>,
     document.getElementById('main')
